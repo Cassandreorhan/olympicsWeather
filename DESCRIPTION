@@ -1,0 +1,24 @@
+Package: olympicsWeather
+Title: Prévision météo des sites olympiques 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Cassandre", "Orhan", , "cassandre.orhan@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Ce package contient un ensemble de fonction permetant d'obtenir en temps réel les prévisions météo des sites olympiques en vu des JO.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    devtools,
+    dplyr,
+    httr,
+    jsonlite,
+    ggmap,
+    httr2,
+    testthat,
+    tibble,
+    tidygeocoder,
+    tidyverse
+Config/testthat/edition: 3
+
