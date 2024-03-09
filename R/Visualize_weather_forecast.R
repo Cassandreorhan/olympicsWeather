@@ -48,7 +48,7 @@ visualize_weather_forecast <- function(localisation) {
 
 
   plot_precipitation_proba <- ggplot2::ggplot(forecast) +
-    ggplot2::geom_line(ggplot2::aes(x = date_heure, y = precipitation_proba * 10, color = "Probabilité de précipitation")) +
+    ggplot2::geom_line(ggplot2::aes(x = date_heure, y = precipitation_proba, color = "Probabilité de précipitation")) +
     ggplot2::labs(title = "Probabilité de précipitation",
                   x = "Date et heure",
                   y = "Probabilité de précipitation") +
@@ -56,7 +56,7 @@ visualize_weather_forecast <- function(localisation) {
     ggplot2::theme(legend.position = "bottom")
 
   plot_precipitation <- ggplot2::ggplot(forecast) +
-    ggplot2::geom_line(ggplot2::aes(x = date_heure, y = precipitation * 10, color = "Précipitation")) +
+    ggplot2::geom_line(ggplot2::aes(x = date_heure, y = precipitation, color = "Précipitation")) +
     ggplot2::labs(title = "Précipitation",
                   x = "Date et heure",
                   y = "Précipitation") +
