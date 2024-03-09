@@ -23,4 +23,9 @@ Imports:
     ggplot2,
     gridExtra
 Config/testthat/edition: 3
+Exported : 
+    perform_request,
+    unnest_response,
+    get_weather_forecast,
+    visualize_weather_forecast
 
