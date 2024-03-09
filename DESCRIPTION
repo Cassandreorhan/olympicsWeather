@@ -19,6 +19,8 @@ Imports:
     testthat,
     tibble,
     tidygeocoder,
-    tidyverse
+    tidyverse,
+    ggplot2,
+    gridExtra
 Config/testthat/edition: 3
 

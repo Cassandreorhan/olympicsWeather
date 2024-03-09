@@ -13,11 +13,11 @@ get_weather_forecast(localisation)
 Un tibble contenant les prévisions météo.
 }
 \description{
-Cette fonction permet de récupérer une table de prévisions météo pour une coordonnée GPS donnée. Ces prévisions météo incluent des informations telles que la température, la probabilité de précipitations, etc.
+Cette fonction permet de récupérer une table de prévisions météo pour une coordonnée GPS donnée.
+Ces prévisions météo incluent des informations telles que la température, la probabilité de précipitations, etc.
 }
 \examples{
-
-get_weather_forecast(c(48.85, 2.35))
-get_weather_forecast("Paris")
+get_weather_forecast(c(48.841319, 2.253076))
+get_weather_forecast("Parc des princes")
 
 }

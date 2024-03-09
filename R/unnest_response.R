@@ -4,8 +4,13 @@
 #'
 #' @param donnees_brute Les données de prévisions météo.
 #' @return Un tibble contenant les prévisions météo formatées.
+#'
+#' @usage unnest_response(donnees_brute)
+#'
 #' @examples
-#' unnest_response(olympicsWeather::perform_request(48.85,2.35))
+#' unnest_response(olympicsWeather::perform_request(48.841319, 2.253076))
+#'
+#' @import tibble
 #'
 #' @export
 

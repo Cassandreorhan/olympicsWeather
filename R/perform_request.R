@@ -1,12 +1,22 @@
+url <- "https://api.open-meteo.com/v1/forecast"
+
 #' @title Fonction interne pour effectuer la requête API et obtenir les données brutes
 #'
 #' @description Cette fonction interne effectue une requête API pour récupérer les données brutes de prévisions météo.
 #'
 #' @param lat Latitude de la coordonnée GPS.
 #' @param lon Longitude de la coordonnée GPS.
+#'
 #' @return Les données brutes de prévisions météo.
-#' @examples
-#' perform_request(48.85,2.35)
+#'
+#' @usage perform_request(lat,lon)
+#'
+#' @examples perform_request(48.841319, 2.253076)
+#'
+#' @import httr2
+#' @import tibble
+#' @import tidyverse
+#'
 #' @export
 
 perform_request <- function(lat, lon) {

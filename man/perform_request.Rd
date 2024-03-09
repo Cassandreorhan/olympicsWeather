@@ -4,7 +4,7 @@
 \alias{perform_request}
 \title{Fonction interne pour effectuer la requête API et obtenir les données brutes}
 \usage{
-perform_request(lat, lon)
+perform_request(lat,lon)
 }
 \arguments{
 \item{lat}{Latitude de la coordonnée GPS.}
@@ -18,5 +18,6 @@ Les données brutes de prévisions météo.
 Cette fonction interne effectue une requête API pour récupérer les données brutes de prévisions météo.
 }
 \examples{
-perform_request(48.85,2.35)
+perform_request(48.841319, 2.253076)
+
 }

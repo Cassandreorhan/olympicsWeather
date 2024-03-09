@@ -16,6 +16,6 @@ Un tibble contenant les prévisions météo formatées.
 Cette fonction interne prend les données brutes de prévisions météo et les transforme en un format plus lisible.
 }
 \examples{
-unnest_response(olympicsWeather::perform_request(48.85,2.35))
+unnest_response(olympicsWeather::perform_request(48.841319, 2.253076))
 
 }
